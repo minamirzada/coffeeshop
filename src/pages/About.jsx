@@ -1,3 +1,4 @@
+import storyImage from '../assets/story.png';
 import './About.css';
 
 const About = () => {
@@ -10,7 +11,7 @@ const About = () => {
 
             <div className="about-content">
                 <div className="about-image glass-panel">
-                    {/* In a real app, an image would go here */}
+                    <img src={storyImage} alt="Coffee Shop Interior" />
                 </div>
                 <div className="about-text">
                     <h2>Crafting Community</h2>
